@@ -43,7 +43,7 @@ const Navitem = () => {
                         <div className='menu-area'>
                             <div className='menu'>
                                 <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
-                                    <li><Link to="./">Home</Link></li>
+                                    <li><Link to="./home">Home</Link></li>
                                     <li><Link to="./shop">Shop</Link></li>
                                     <li><Link to="./blog">Blog</Link></li>
                                     <li><Link to="./about">About</Link></li>
@@ -61,7 +61,7 @@ const Navitem = () => {
                             </div>
                             {/* social Toggleer*/}
                             <div className='ellepsis-bar d-md-none' onClick={() => setSocialToggle(!socialToggle)}>
-                                <i class="icofont-info-circle"></i>
+                                <i className="icofont-info-circle"></i>
 
                             </div>
                         </div>

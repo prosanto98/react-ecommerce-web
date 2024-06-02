@@ -23,12 +23,12 @@ import Blog from './blog/Blog.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<App/>,
-    children:[
-      {path:"/home",element:<Home/>},
-      {path:"/blog",element:<Blog/>}
+    element: <App />,
+    children: [
+      { path: "/home", element: <Home /> },
+      { path: "/blog", element: <Blog /> }
     ]
-    },
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

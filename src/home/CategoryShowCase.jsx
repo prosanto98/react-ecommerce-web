@@ -76,7 +76,7 @@ const ProductData = [
         price: '$199.00',
         id: 8,
     },
-]
+];
 const CategoryShowCase = () => {
     const [items, setItems] = useState(ProductData);
     //  Category based filtering

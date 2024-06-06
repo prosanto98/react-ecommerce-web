@@ -41,7 +41,7 @@ const categoryList = [
         iconName: 'icofont-brand-windows',
         title: 'Home Decor',
     },
-]
+];
 const HomeCategory = () => {
     return (
         <div className='category-section style-4 padding-tb'>

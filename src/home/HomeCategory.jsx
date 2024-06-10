@@ -6,8 +6,8 @@ const btnText = "Get Started Now";
 
 const categoryList = [
     {
-        
-        imgUrl: '/images/category/01.jpg',
+
+        imgUrl: 'src/assets/images/category/01.jpg',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
         title: 'DSLR Camera',
@@ -56,23 +56,25 @@ const HomeCategory = () => {
                 <div className='section-wrapper'>
                     <div className='row g-4 justify-content-center row-cols-md-3 row-cols-sm-2 row-cols-1'>
                         {
-                            categoryList.map((val, i) => (<div key={i} className='col'>
-                                <Link to="/shop" className="category-item">
-                                    <div className='category-inner'>
-                                        {/* image thumbnail */}
-                                        <div className='category-thumb'>
-                                            <img src={val.imgUrl} alt="" />
-                                        </div>
-                                        {/* content */}
-                                        <div className='category-content'>
-                                            <div className='cate-icon'>
-                                                <i className={val.iconName}></i>
+                            categoryList.map((val, i) => (
+                                <div key={i} className='col'>
+                                    <Link to="/shop" className="category-item">
+                                        <div className='category-inner'>
+                                            {/* image thumbnail */}
+                                            <div className='category-thumb'>
+                                                <img src={val.imgUrl} alt="" />
                                             </div>
-                                            <Link to="/shop"><h6>{val.title}</h6></Link>
+                                            {/* content */}
+                                            <div className='category-content'>
+                                                <div className='cate-icon'>
+                                                    <i className={val.iconName}></i>
+                                                </div>
+                                                <h6>{val.title}</h6>
+                                            </div>
                                         </div>
-                                    </div>
-                                </Link>
-                            </div>))
+                                    </Link>
+                                </div>
+                            ))
                         }
                     </div>
                     <div className='text-center mt-5'>
@@ -81,7 +83,7 @@ const HomeCategory = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default HomeCategory
+export default HomeCategory;

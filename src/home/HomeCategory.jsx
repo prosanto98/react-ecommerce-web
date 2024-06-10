@@ -7,41 +7,41 @@ const btnText = "Get Started Now";
 const categoryList = [
     {
 
-        imgUrl: '/dist/assets/01-DujGuA9Z.jpg',
+        imgUrl: '/public/assets/02-BRzHLXG8.jpg',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
         title: 'DSLR Camera',
     },
-    {
-        imgUrl: 'src/assets/images/category/02.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        iconName: 'icofont-brand-windows',
-        title: 'Shoes',
-    },
-    {
-        imgUrl: 'src/assets/images/category/03.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        iconName: 'icofont-brand-windows',
-        title: 'Photography',
-    },
-    {
-        imgUrl: 'src/assets/images/category/04.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        iconName: 'icofont-brand-windows',
-        title: 'Formal Dress',
-    },
-    {
-        imgUrl: 'src/assets/images/category/05.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        iconName: 'icofont-brand-windows',
-        title: 'Colorful Bags',
-    },
-    {
-        imgUrl: 'src/assets/images/category/06.jpg',
-        imgAlt: 'category rajibraj91 rajibraj',
-        iconName: 'icofont-brand-windows',
-        title: 'Home Decor',
-    },
+    // {
+    //     imgUrl: 'src/assets/images/category/02.jpg',
+    //     imgAlt: 'category rajibraj91 rajibraj',
+    //     iconName: 'icofont-brand-windows',
+    //     title: 'Shoes',
+    // },
+    // {
+    //     imgUrl: 'src/assets/images/category/03.jpg',
+    //     imgAlt: 'category rajibraj91 rajibraj',
+    //     iconName: 'icofont-brand-windows',
+    //     title: 'Photography',
+    // },
+    // {
+    //     imgUrl: 'src/assets/images/category/04.jpg',
+    //     imgAlt: 'category rajibraj91 rajibraj',
+    //     iconName: 'icofont-brand-windows',
+    //     title: 'Formal Dress',
+    // },
+    // {
+    //     imgUrl: 'src/assets/images/category/05.jpg',
+    //     imgAlt: 'category rajibraj91 rajibraj',
+    //     iconName: 'icofont-brand-windows',
+    //     title: 'Colorful Bags',
+    // },
+    // {
+    //     imgUrl: 'src/assets/images/category/06.jpg',
+    //     imgAlt: 'category rajibraj91 rajibraj',
+    //     iconName: 'icofont-brand-windows',
+    //     title: 'Home Decor',
+    // },
 ];
 const HomeCategory = () => {
     return (

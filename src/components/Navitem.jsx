@@ -26,8 +26,6 @@ const Navitem = () => {
                 </div>
             </div>
 
-
-
             <div className='header-bottom'>
                 <div className='container'>
                     <div className='header-wrapper'>

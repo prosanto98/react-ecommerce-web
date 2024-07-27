@@ -5,7 +5,7 @@ import logo from "../assets/images/logo/logo.png"
 const Navitem = () => {
     const [menuToggle, setMenuToggle] = useState(false);
     const [socialToggle, setSocialToggle] = useState(false);
-    const [headerFixed, setHeaderFixed] = useState(false);
+    const [headerFixed, setHeaderFixed] = useState(true);
 
     window.addEventListener(scroll, () => {
         if (window.screenY > 200) {
@@ -43,7 +43,7 @@ const Navitem = () => {
                         <div className='menu-area'>
                             <div className='menu'>
                                 <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
-                                    <li><Link to="./home">Home</Link></li>
+                                    <li><Link to="/">Home</Link></li>
                                     <li><Link to="./shop">Shop</Link></li>
                                     <li><Link to="./blog">Blog</Link></li>
                                     <li><Link to="./about">About</Link></li>

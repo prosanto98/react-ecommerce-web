@@ -31,7 +31,7 @@ const Banner = () => {
         setSearchInput(searchTerm);
 
         //   filtering product based search
-        const filtered = productData.filter((product) => product.name.tolowerCase().includes(searchTerm.tolowerCase()));
+        const filtered = productData.filter((product) => product.name.toLowerCase().includes(searchTerm.toLowerCase()));
         setFilterProducts(filtered);
     }
     return (

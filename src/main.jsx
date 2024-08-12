@@ -20,15 +20,29 @@ import {
 import Home from './home/Home.jsx';
 import Shop from './shop/Shop.jsx';
 import Blog from './blog/Blog.jsx';
+import SingleProduct from './shop/SingleProduct.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <Home /> },
-      { path: "/shop", element: <Shop /> },
-      { path: "/blog", element: <Blog /> }
+      {
+        path: "/",
+        element: <Home />
+      },
+      {
+        path: "/shop",
+        element: <Shop />
+      },
+      {
+        path: "/blog",
+        element: <Blog />
+      },
+      {
+        path: "shop/:id",
+        element: <SingleProduct/>
+      }
     ]
   },
 ]);

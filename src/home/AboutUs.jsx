@@ -23,8 +23,7 @@ const countList = [
         text: 'Rewards and GitCards',
     },
 ];
-
-const About = () => {
+const AboutUs = () => {
     return (
         <div className='instructor-section style-2 padding-tb section-bg-ash'>
             <div className='container'>
@@ -72,4 +71,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default AboutUs

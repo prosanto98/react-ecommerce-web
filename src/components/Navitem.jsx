@@ -5,16 +5,15 @@ import logo from "../assets/images/logo/logo.png"
 const Navitem = () => {
     const [menuToggle, setMenuToggle] = useState(false);
     const [socialToggle, setSocialToggle] = useState(false);
-    const [headerFixed, setHeaderFixed] = useState(true);
-
-    window.addEventListener(scroll, () => {
-        if (window.screenY > 200) {
+    const [headerFixed, setHeaderFixed] = useState(false);
+    
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
             setHeaderFixed(true);
         } else {
             setHeaderFixed(false);
         }
-    })
-
+      });
     return (
         <header className={`header-section style-4 ${headerFixed ? "header-fixed FadeInUp" : ""}`}>
             <div className={`header-top d-md-none ${socialToggle ? "open" : ""}`}>
